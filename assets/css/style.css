@@ -1579,3 +1579,28 @@ section {
   font-size: 13px;
   color: #fff;
 }
+.container {
+  width: 75%;
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+/* h1 {
+  float:left;
+  width: 50%;
+  text-align: center;
+  margin-top: 3rem;
+} */
+.text-red {
+  color: white;
+}
+.blink-hard {
+  animation: blinker 1s step-end infinite;
+}
+.blink-soft {
+  animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
